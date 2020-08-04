@@ -1,0 +1,13 @@
+.box-grid{
+  cursor: pointer;
+  /* height: 50px; */
+  background-color: darkgray;
+  border-radius: 50%;
+  padding: 20px 30px 20px 30px;
+  margin: 0 .5rem;  
+}
+
+.wait{
+  border: 1px dotted orange;
+  background-color: lightblue;
+}
