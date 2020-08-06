@@ -1,13 +1,26 @@
 .box-grid{
   cursor: pointer;
-  /* height: 50px; */
+  height: 73px;
+  width: 74px;
   background-color: darkgray;
   border-radius: 50%;
-  padding: 20px 30px 20px 30px;
+  padding: 26px;
   margin: 0 .5rem;  
 }
 
 .wait{
   border: 1px dotted orange;
   background-color: lightblue;
+}
+
+.correct{
+  background-color: rgb(73, 236, 73);
+}
+
+.wrongIndex{
+  background-color: rgb(228, 228, 4);
+}
+
+.wrong{
+  background-color: red;
 }
