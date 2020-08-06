@@ -11,8 +11,6 @@ function generateRandomNumber(min, max) {
   console.log(resultArray);
 }
 
-generateRandomNumber(1111, 9999)
-
 function circleClicked(element, index) {
   selectedElement = element
   event.target.classList.add("wait")
@@ -42,7 +40,6 @@ function detectKeyPress(event) {
 
 function checkNumberExist(number, index) {
   isNUmberPresent = resultArray.indexOf(number)
-  console.log(isNUmberPresent);
   if (isNUmberPresent !== -1) {
     if (index == isNUmberPresent) {
       selectedElement.target.classList.add("correct")
@@ -69,4 +66,15 @@ function generateCicle() {
 </div>`
 }
 
+generateRandomNumber(1111, 9999)
+for (let a = 0; a < resultArray.length; a++) {
+  for (let b = 0; b < resultArray.length; b++) {
+    if (a == b) {
+      continue
+    }
+    else if (resultArray[a] == resultArray[b]) {
+      generateRandomNumber(1111, 9999)
+    }
+  }
+}
 generateCicle()
